@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="item-shope">
+      <div class="shelf">
+        <div class="item" draggable="true" data-id="1">
+          <img src="./assets/Meat.svg" alt="" />
+        </div>
+        <div class="item" draggable="true" data-id="2">
+          <img src="./assets/Vine.svg" alt="" />
+        </div>
+        <div class="item" draggable="true" data-id="3">
+          <img src="./assets/Milk.svg" alt="" />
+        </div>
+        <div class="item" draggable="true" data-id="4">
+          <img src="./assets/Jam.svg" alt="" />
+        </div>
+        <div class="item" draggable="true" data-id="5">
+          <img src="./assets/Meat.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <div class="cart-cover">
+        <img src="./assets/Basket.png" alt="" />
+      </div>
+      <div class="cart-items"></div>
+    </div>
+    <button id="checkout-btn" class="hidden">Оплатить корзину</button>
+    <script src="script.js"></script>
+  </body>
+</html>
